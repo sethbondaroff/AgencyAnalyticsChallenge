@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* Weather Styles */
+.weather {
+  width: 90%;
+  max-width: 750px;
+  margin: auto;
+  margin-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-color: #eef6fb;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* CityLinks Styles */
+.linkContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
-
-.App-link {
-  color: #61dafb;
+.link {
+  margin: 10px;
+  width: 25%;
+  text-align: center;
+  font-size: large;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: font-weight 0.1s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  color: #5eafe7;
+  font-weight: bold;
 }
+/* TodaysWeather Styles */
+.todayContainer {
+  margin: auto;
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.todayHeader {
+  font-size: larger;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.todayInfo {
+  display: flex;
+}
+.todayIcon {
+  width: 150px;
+  height: 150px;
+}
+.todayTemp {
+  font-size: xx-large;
+  font-weight: bold;
+}
+/* Forecast Styles */
+.forecastContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+/* ForecastDay Styles */
+.forecastDay {
+  width: calc(25% - 5px);
+  margin-top: 5px;
+  background-color: #eef6fb;
+  text-align: center;
+  font-weight: lighter;
+}
+.forecastDayTemp {
+  font-weight: bold;
+}
+.forecastIcon {
+  height: 100px;
+  width: 100%;
+  max-width: 55px;
+}
+.forecastDayInner {
+  padding: 20px;
+}
+/*# sourceMappingURL=App.css.map */
