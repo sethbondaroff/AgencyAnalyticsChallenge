@@ -15,10 +15,9 @@ class ForecastDay extends React.Component<Props>{
         return(
             <div className='forecastDay'>
                 <div className='forecastDayInner'>
-                    <div>{this.props.day}</div>
-                    <span className="fa-layers forecastIcon">
-                        <FontAwesomeIcon icon={getIcon(this.props.icon)} color="#2e4369" style={{width: '100%', height: '100%'}}/>
-                        <FontAwesomeIcon icon={getIcon(this.props.icon)} color='#cdf0f0' transform="shrink-2" style={{width: '100%', height: '100%'}}/>
+                    <div className='forecastDayDay'>{this.props.day}</div>
+                    <span className="forecastIcon">
+                        <FontAwesomeIcon icon={getIcon(this.props.icon)} color="#cdf0f0" style={{width: '100%', height: '100%'}}/>
                     </span>
                     <div className='forecastDayTemp'>{Math.round(this.props.temp)}°</div>
                 </div>

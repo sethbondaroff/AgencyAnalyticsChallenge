@@ -16,14 +16,13 @@ class TodaysWeather extends React.Component<Props> {
                 <div className='todayHeader'>Today</div>
                 <div className='todayInfo'>
                     <div>
-                        <span className="fa-layers todayIcon">
-                            <FontAwesomeIcon icon={getIcon(this.props.icon)} color="#2e4369" style={{width: '100%', height: '100%'}}/>
-                            <FontAwesomeIcon icon={getIcon(this.props.icon)} color='#cdf0f0' transform="shrink-1" style={{width: '100%', height: '100%'}}/>
+                        <span className="todayIcon">
+                            <FontAwesomeIcon icon={getIcon(this.props.icon)} color="#cdf0f0" style={{width: '100%', height: '100%'}}/>
                         </span>
                     </div>
-                    <div>
+                    <div className='todayTempContainer'>
                         <div className='todayTemp'>{Math.round(this.props.temp)}°</div>
-                        <div>{this.props.weather}</div>
+                        <div className='todayWeather'>{this.props.weather}</div>
                     </div>
                 </div>
             </div>
