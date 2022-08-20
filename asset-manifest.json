@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AgencyAnalyticsChallenge/static/css/main.b26e2790.css",
+    "main.js": "/AgencyAnalyticsChallenge/static/js/main.19be97d7.js",
+    "static/js/787.02001107.chunk.js": "/AgencyAnalyticsChallenge/static/js/787.02001107.chunk.js",
+    "index.html": "/AgencyAnalyticsChallenge/index.html",
+    "main.b26e2790.css.map": "/AgencyAnalyticsChallenge/static/css/main.b26e2790.css.map",
+    "main.19be97d7.js.map": "/AgencyAnalyticsChallenge/static/js/main.19be97d7.js.map",
+    "787.02001107.chunk.js.map": "/AgencyAnalyticsChallenge/static/js/787.02001107.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b26e2790.css",
+    "static/js/main.19be97d7.js"
+  ]
+}
